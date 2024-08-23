@@ -1,8 +1,8 @@
 # The build part for Netlify with a Nuxt project
 [build]
     base='/'
-    publish='.output'
-    command='npm run go'
+    publish='dist'
+    command='npm run build'
     environment = { NODE_VERSION = "18.0.0" }
 
 # Also put headers
