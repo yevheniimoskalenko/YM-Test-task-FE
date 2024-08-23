@@ -72,7 +72,7 @@ function selectSession(time: string, date: string, title: string) {
 					<span class="col-span-1">{{ item.showdate }}</span>
 					<div class="col-span-9 grid grid-cols-3 sm:grid-cols-5 lg:grid-cols-9">
 						<Button
-							v-for="time in item.daytime.split(';')"
+							v-for="time in item?.daytime?.split(';')"
 							:key="time"
 							@click="selectSession(time, item.showdate, movie.name)"
 						>
