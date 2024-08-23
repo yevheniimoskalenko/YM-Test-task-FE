@@ -72,4 +72,20 @@ yarn preview
 bun run preview
 ```
 
+Locally preview (SSR) production build:
+
+```bash
+# npm
+npm run start
+
+# pnpm
+pnpm run start
+
+# yarn
+yarn start
+
+# bun
+bun run start
+```
+
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
